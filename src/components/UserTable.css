@@ -1,0 +1,71 @@
+/* src/UserTable.css */
+
+/* Style the table container (unchanged) */
+.table-container {
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: separate;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style table headers (unchanged) */
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  text-align: left;
+}
+
+/* Style table rows */
+tr {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+/* Enlarge the row on hover and add shadow */
+tr:hover {
+  transform: scale(1.02); /* Enlarge the row */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow */
+}
+
+/* Style delete button (unchanged) */
+button {
+  background-color: #ff3333;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #e60000;
+}
+
+/* Style table headers */
+th {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  text-align: left;
+  border: 1px solid #ccc; /* Add border property */
+}
+
+/* Style table rows */
+tr {
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #ccc; /* Add border property */
+}
+
